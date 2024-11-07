@@ -347,3 +347,10 @@ body {
 .custom-top{
   margin-top: 100px;
 }
+.custom-bg-image{
+
+  background-image: url("Pattern.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
