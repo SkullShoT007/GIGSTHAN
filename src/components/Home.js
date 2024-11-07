@@ -13,7 +13,7 @@ class Home extends React.Component {
     <div className="carousel-item active">
       <div className="container custom-container">
         <div className="custom-div1">
-          <h1 className  = "custom-text-color display-4">
+          <h1 className  = "custom-text-color display-5">
             Unlock your <br />
             freelance potential <br />
             with GigSthan
@@ -34,7 +34,7 @@ class Home extends React.Component {
     <div className="carousel-item">
       <div className="container custom-container">
         <div className="custom-div1">
-          <h1 className  = "custom-text-color display-4">
+          <h1 className  = "custom-text-color display-5">
             Unlock your <br />
             freelance potential <br />
             with GigSthan
@@ -55,7 +55,7 @@ class Home extends React.Component {
     <div className="carousel-item">
       <div className="container custom-container">
         <div className="custom-div1">
-          <h1 className  = "custom-text-color display-4">
+          <h1 className  = "custom-text-color display-5">
             Unlock your <br />
             freelance potential <br />
             with GigSthan
@@ -76,7 +76,7 @@ class Home extends React.Component {
     <div className="carousel-item">
       <div className="container custom-container">
         <div className="custom-div1">
-          <h1 className  = "custom-text-color display-4">
+          <h1 className  = "custom-text-color display-5">
             Unlock your <br />
             freelance potential <br />
             with GigSthan
