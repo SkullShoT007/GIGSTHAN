@@ -24,7 +24,7 @@ class Home extends React.Component {
           <img
             src="happyFreelancer.gif"
             alt=""
-            height={500}
+            height={400}
             width={700}
             className="image-fluid d-block w-100 "
           />
