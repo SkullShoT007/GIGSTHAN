@@ -13,7 +13,7 @@ class Home extends React.Component {
     <div className="carousel-item active">
       <div className="container custom-container">
         <div className="custom-div1">
-          <h1 className  = "custom-text-color">
+          <h1 className  = "custom-text-color display-4">
             Unlock your <br />
             freelance potential <br />
             with GigSthan
@@ -22,7 +22,7 @@ class Home extends React.Component {
         </div>
         <div className="custom-div2">
           <img
-            src="happyFreelancer.gif"
+            src="happy.gif"
             alt=""
             height={400}
             width={700}
@@ -34,7 +34,7 @@ class Home extends React.Component {
     <div className="carousel-item">
       <div className="container custom-container">
         <div className="custom-div1">
-          <h1 className  = "custom-text-color font-weight-bold">
+          <h1 className  = "custom-text-color display-4">
             Unlock your <br />
             freelance potential <br />
             with GigSthan
@@ -55,7 +55,7 @@ class Home extends React.Component {
     <div className="carousel-item">
       <div className="container custom-container">
         <div className="custom-div1">
-          <h1 className  = "custom-text-color">
+          <h1 className  = "custom-text-color display-4">
             Unlock your <br />
             freelance potential <br />
             with GigSthan
@@ -76,7 +76,7 @@ class Home extends React.Component {
     <div className="carousel-item">
       <div className="container custom-container">
         <div className="custom-div1">
-          <h1 className  = "custom-text-color">
+          <h1 className  = "custom-text-color display-4">
             Unlock your <br />
             freelance potential <br />
             with GigSthan
@@ -170,7 +170,7 @@ class Home extends React.Component {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="#" className="btn custom-orange-btn">
                   Know More
                 </a>
               </div>
@@ -190,7 +190,7 @@ class Home extends React.Component {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="#" className="btn custom-orange-btn">
                   Know More
                 </a>
               </div>
@@ -210,7 +210,7 @@ class Home extends React.Component {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="#" className="btn custom-orange-btn">
                   Know More
                 </a>
               </div>
@@ -234,7 +234,7 @@ class Home extends React.Component {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="#" className="btn custom-orange-btn">
                   Know More
                 </a>
               </div>
@@ -254,7 +254,7 @@ class Home extends React.Component {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="#" className="btn ">
                   Know More
                 </a>
               </div>
@@ -274,7 +274,7 @@ class Home extends React.Component {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="#" className="btn custom-orange-btn">
                   Know More
                 </a>
               </div>
@@ -298,7 +298,7 @@ class Home extends React.Component {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="#" className="btn custom-orange-btn">
                   Know More
                 </a>
               </div>
@@ -318,7 +318,7 @@ class Home extends React.Component {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="#" className="btn custom-orange-btn">
                   Know More
                 </a>
               </div>
@@ -338,7 +338,7 @@ class Home extends React.Component {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="#" className="btn custom-orange-btn">
                   Know More
                 </a>
               </div>
