@@ -211,6 +211,7 @@
 
 }
 .custom-hire{
+  z-index: 100;
   background-color:rgba(10, 54, 93, 1);
   color: #e3f2fd;
   padding: 20px;
@@ -219,8 +220,34 @@
   width: 400px;
   margin-left: 5px;
   border-radius: 20px;
-  
+  transition: 0.1s;
 }
+
+.custom-hire::before{
+  z-index: -1;
+  content: "";
+  position: absolute;
+  
+  background-color: #F5745A;
+  color: #e3f2fd;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 150px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.custom-hire:hover::before{
+  
+  opacity: 1;
+}
+
+
 .custom-text{
   color: rgba(10, 54, 93, 1);
 }
