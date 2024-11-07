@@ -32,7 +32,7 @@ class Navbar extends React.Component {
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
                     <Link
-                      className="nav-link active custom-text-color fd"
+                      className="nav-link active custom-text-color nav_hover"
                       aria-current="page"
                       to="/"
                       style={{ color: "0A365D" }}
@@ -41,17 +41,17 @@ class Navbar extends React.Component {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link custom-text-color fd" to="/job_posts">
+                    <Link className="nav-link custom-text-color nav_hover" to="/job_posts">
                       <b>Post a Job</b>
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link custom-text-color fd" to="/find_job">
+                    <Link className="nav-link custom-text-color nav_hover" to="/find_job">
                       <b>Find a Job</b>
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link custom-text-color fd" to="/about">
+                    <Link className="nav-link custom-text-color nav_hover" to="/about">
                       <b>About</b>
                     </Link>
                   </li>
@@ -59,7 +59,7 @@ class Navbar extends React.Component {
 
     
                   <li class="nav-item">
-            <a class="nav-link custom-text-color fd" type="button" data-bs-toggle="modal"
+            <a class="nav-link custom-text-color nav_hover" type="button" data-bs-toggle="modal"
             data-bs-target="#contactModal"><b>Contact Us</b></a>
           </li>
 

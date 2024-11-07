@@ -13,8 +13,8 @@ class About extends React.Component {
   {/*section 1*/}
   {/* About Section */}
   {/* Hero Section */}
-  <section className="hero-section text-center text-white py-5 custom-bg-image">
-    <div className="container ">
+  <section className="hero-section text-center text-white py-5">
+    <div className="container">
       <h1 className="display-4 fw-bold custom-top">Welcome to Gigsthan</h1>
       <p className="lead">Your Destination for Freelance Success</p>
       <a href="#about" className="btn btn-lg btn-outline-light mt-3">
