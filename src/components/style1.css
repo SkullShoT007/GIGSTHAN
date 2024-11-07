@@ -106,3 +106,244 @@
 .custom-text{
   color: rgba(10, 54, 93, 1);
 }
+.custom-align{
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.custom-text-color {
+  color: rgb(10, 54, 93);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-btn-color {
+  color: white;
+  background-color: rgb(10, 54, 93);
+  border: 1px solid rgb(10, 54, 93);
+}
+
+.fd:hover {
+  opacity: 0.5;
+}
+
+.custom-container {
+  display: flex;
+  margin-top: 90px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+
+
+}
+
+.custom-margin-left {
+  margin-right: 100px;
+  margin-top: 70px;
+  color: black;
+}
+
+.custom-margin-right {
+  margin-left: 100px;
+  margin-top: 70px;
+  color: black;
+}
+
+.custom-margin-topskills {
+  margin-top: 180px;
+  margin-bottom: 50px;
+
+}
+
+.custom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 40px;
+  margin-left: 60px;
+}
+
+.custom-hover:hover {
+  opacity: 0.8;
+}
+
+.custom-underline {
+  text-decoration: none;
+}
+
+.custom-margin-a {
+
+  margin-bottom: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.custom-bg-footer {
+  background-color: rgba(10, 54, 93, 1);
+  color: #e3f2fd;
+  padding: 20px;
+  height: 70vh;
+  padding: 40px;
+
+
+}
+
+
+.custom-text-color-footer {
+  color: white;
+}
+
+.custom-position {
+  justify-content: center;
+  align-self: center;
+  margin-left: 50px;
+}
+
+.custom-bg-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("f6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.custom-hire{
+  background-color:rgba(10, 54, 93, 1);
+  color: #e3f2fd;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin-left: 5px;
+  border-radius: 20px;
+  
+}
+.custom-text{
+  color: rgba(10, 54, 93, 1);
+}
+.required-asterisk {
+  color: red;
+}
+.fixed-textarea {
+  width: 765px;
+  height: 150px;
+  resize: none; /* Disables resizing */
+}
+
+.custom-text-color {
+  color: rgb(10, 54, 93);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-btn-color {
+  color: white;
+  background-color: rgb(10, 54, 93);
+  border: 1px solid rgb(10, 54, 93);
+}
+
+.fd:hover {
+  opacity: 0.5;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.about-section {
+  background-color: #f9f9f9;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.lead {
+  color: #555;
+}
+
+.list-group-item {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.text-center a.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.text-center a.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: linear-gradient(to right, #4e54c8, #8f94fb);
+  padding: 100px 0;
+}
+
+.hero-section h1, .hero-section p {
+  color: #fff;
+}
+
+.hero-section .btn-outline-light {
+  border: 2px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+}
+
+.hero-section .btn-outline-light:hover {
+  background-color: #fff;
+  color: #4e54c8;
+}
+
+/* About Section */
+.about-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.about-section h2, .about-section h3 {
+  color: #333;
+}
+
+.about-section .feature-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.about-section .feature-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-section .feature-box h5 {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+.about-section .feature-box p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Button Styles */
+.about-section .btn-primary {
+  background-color: #4e54c8;
+  border-color: #4e54c8;
+  padding: 10px 40px;
+}
+
+.about-section .btn-primary:hover {
+  background-color: #8f94fb;
+  border-color: #8f94fb;
+  color: #fff;
+}
+.custom-top{
+  margin-top: 100px;
+}
