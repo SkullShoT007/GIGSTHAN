@@ -114,7 +114,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .custom-text-color {
-  color: rgb(10, 54, 93);
+  color: #0A365D;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -194,6 +194,9 @@
 .custom-text-color-footer {
   color: white;
 }
+.custom-text-color-footer:hover {
+  color: #F5745A;
+}
 
 .custom-position {
   justify-content: center;
@@ -221,6 +224,16 @@
 .custom-text{
   color: rgba(10, 54, 93, 1);
 }
+
+.custom-orange-btn{
+  color: #ffffff;
+  background-color: #F5745A;
+}
+.custom-orange-btn:hover{
+  color: #e3f2fd;
+  background-color: #0A365D;
+}
+
 .required-asterisk {
   color: red;
 }
@@ -233,7 +246,14 @@
 .custom-text-color {
   color: rgb(10, 54, 93);
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
+
+.nav_hover:hover{
+  color: #F5745A;
+}
+
+
 
 .custom-btn-color {
   color: white;

@@ -5,7 +5,6 @@ import Home from "./components/Home";
 import About from './components/About';
 import Footer from "./components/Footer";
 import Job_Board from './components/Job_Board';
-import Post_job from './components/Post_job';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
@@ -17,7 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />  {/* Use `element` prop */}
           <Route path="/about" element={<About />} />
         
-          <Route path="/job_posts" element={<Post_job />} />
+          {/* <Route path="/job_posts" element={<JobPosts />} /> */}
           <Route path="/find_job" element={<Job_Board/>} />
         </Routes>
         <Footer />

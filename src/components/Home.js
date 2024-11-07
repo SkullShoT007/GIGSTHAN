@@ -13,19 +13,19 @@ class Home extends React.Component {
     <div className="carousel-item active">
       <div className="container custom-container">
         <div className="custom-div1">
-          <h1>
+          <h1 className  = "custom-text-color">
             Unlock your <br />
             freelance potential <br />
             with GigSthan
           </h1>
-          <button className="btn btn-danger mt-4">Get Started</button>
+          <button className="btn custom-orange-btn mt-4">Get Started</button>
         </div>
         <div className="custom-div2">
           <img
-            src="gigsthan-bg-image.png"
+            src="happyFreelancer.gif"
             alt=""
-            height={400}
-            width={600}
+            height={500}
+            width={700}
             className="image-fluid d-block w-100 "
           />
         </div>
@@ -34,12 +34,12 @@ class Home extends React.Component {
     <div className="carousel-item">
       <div className="container custom-container">
         <div className="custom-div1">
-          <h1>
+          <h1 className  = "custom-text-color font-weight-bold">
             Unlock your <br />
             freelance potential <br />
             with GigSthan
           </h1>
-          <button className="btn btn-danger mt-4">Get Started</button>
+        <button className="btn custom-orange-btn mt-4">Get Started</button>
         </div>
         <div className="custom-div2">
           <img
@@ -55,12 +55,12 @@ class Home extends React.Component {
     <div className="carousel-item">
       <div className="container custom-container">
         <div className="custom-div1">
-          <h1>
+          <h1 className  = "custom-text-color">
             Unlock your <br />
             freelance potential <br />
             with GigSthan
           </h1>
-          <button className="btn btn-danger mt-4">Get Started</button>
+          <button className="btn custom-orange-btn mt-4">Get Started</button>
         </div>
         <div className="custom-div2">
           <img
@@ -76,12 +76,12 @@ class Home extends React.Component {
     <div className="carousel-item">
       <div className="container custom-container">
         <div className="custom-div1">
-          <h1>
+          <h1 className  = "custom-text-color">
             Unlock your <br />
             freelance potential <br />
             with GigSthan
           </h1>
-          <button className="btn btn-danger mt-4">Get Started</button>
+          <button className="btn custom-orange-btn mt-4">Get Started</button>
         </div>
         <div className="custom-div2">
           <img
@@ -144,7 +144,7 @@ class Home extends React.Component {
                           
 {/* skills */}
 
-  <h1 className="display-1 text-center custom-margin-topskills">
+  <h1 className="display-0 text-center custom-margin-topskills custom-text-color">
     {" "}
     Trending Skills{" "}
   </h1>
@@ -371,10 +371,10 @@ class Home extends React.Component {
             <div className="container py-4 mb-4">
   <div className="p-5 mb-4 bg-body-tertiary rounded-3">
     <div className="row">
-      <h1 className="display-1 text-center">Why to join GigSthan ?</h1> <br />{" "}
+      <h1 className="display-0 text-left ">Why to join GigSthaan?</h1> <br />{" "}
       <br />
       <div className="container-fluid py-5 col-6">
-        <h1 className="display-5 fw-bold">Freelancers</h1>
+        <h1 className="display-5 fw-bold custom-text-color">Freelancers</h1>
         <p className="col-md-8 fs-4"></p>
         <ul>
           <li>Build your career and earn by working with global clients.</li>
@@ -382,12 +382,12 @@ class Home extends React.Component {
           <li> Enjoy secure payments through our escrow system.</li>
         </ul>
         <p />
-        <button className="btn btn-danger btn-lg" type="button">
+        <button className="btn custom-orange-btn btn-lg" type="button">
           Create Freelancer Account
         </button>
       </div>
       <div className="container-fluid py-5 col-6">
-        <h1 className="display-5 fw-bold">Clients</h1>
+        <h1 className="display-5 fw-bold custom-text-color">Clients</h1>
         <p className="col-md-8 fs-4"></p>
         <ul>
           <li>Find the right talent for your projects quickly.</li>
@@ -395,7 +395,7 @@ class Home extends React.Component {
           <li>Manage your projects easily with our intuitive dashboard.</li>
         </ul>
         <p />
-        <button className="btn btn-danger btn-lg" type="button">
+        <button className="btn custom-orange-btn btn-lg" type="button">
           Create Client Account
         </button>
       </div>
