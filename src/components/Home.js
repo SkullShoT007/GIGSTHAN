@@ -590,10 +590,13 @@ class Home extends React.Component {
           >
             Close
           </button>
+          <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+          <script src="https://files.bpcontent.cloud/2024/11/08/12/20241108123922-7G77HD46.js"></script>
         </div>
       </div>
     </div>
   </div>
+  
 </>
 
        
