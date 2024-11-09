@@ -397,7 +397,7 @@ body {
 .custom-bg-image{
 
   background-image: url("Pattern.jpg");
+  background-size: 100% 150%;
   background-repeat: no-repeat;
-  background-size: cover;
   
 }
