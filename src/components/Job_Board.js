@@ -1,5 +1,7 @@
+
 import React, { useState } from "react";
 // import "bootstrap/dist/css/bootstrap.min.css";
+
 
 const Job_Board = () => {
   // Example job data (can be fetched from an API in a real application)
@@ -13,9 +15,9 @@ const Job_Board = () => {
     },
     {
       title: "UI/UX Designer",
-      category: "Writing",
-      type: "Part-time",
-      location: "India",
+      category: "Design",
+      type: "Full-time",
+      location: "UK",
       description: "We need a skilled content writer with expertise in SEO and digital marketing."
     },
     {
@@ -90,7 +92,7 @@ const Job_Board = () => {
 
   return (
     <>
-      <header className="bg-primary text-white text-center py-3 mt-4">
+      <header className="bg-primary text-center py-3 mt-4 custom-freelance-head ">
         <h1>Find Freelance Jobs</h1>
       </header>
       <div className="container my-5">

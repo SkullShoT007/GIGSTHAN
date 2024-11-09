@@ -82,12 +82,13 @@ class Navbar extends React.Component {
                   >
                     Login
                   </button>
-                  <button
+                  <Link to="/signup">  <button
                     className="btn btn-outline-light custom-btn-color me-2"
                     type="submit"
                   >
                     SignUp
-                  </button>
+                  </button></Link>
+                
                 </form>
               </div>
             </div>

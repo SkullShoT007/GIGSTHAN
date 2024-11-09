@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./style1.css"
 import React from 'react'
 class Home extends React.Component {
@@ -14,13 +15,14 @@ class Home extends React.Component {
       <div className="container custom-container">
         <div className="custom-div1">
           <h1 className  = "custom-text-color display-5">
-            Unlock your <br />
-            freelance potential <br />
+            Unlock your  <br/>
+            True freelance 
+            Potential <br/>
             with GigSthan
           </h1>
-          <button className="btn custom-orange-btn mt-4">Get Started</button>
+        <Link to="/signup"><button className="btn custom-orange-btn mt-4">Get Started</button></Link>  
         </div>
-        <div className="custom-div2">
+        <div >
           <img
             src="happy.gif"
             alt=""
@@ -33,7 +35,7 @@ class Home extends React.Component {
     </div>
     <div className="carousel-item">
       <div className="container custom-container">
-        <div className="custom-div1">
+        <div>
           <h1 className  = "custom-text-color display-5">
             Unlock your <br />
             freelance potential <br />
@@ -41,12 +43,12 @@ class Home extends React.Component {
           </h1>
         <button className="btn custom-orange-btn mt-4">Get Started</button>
         </div>
-        <div className="custom-div2">
+        <div >
           <img
             src="update.gif"
             alt=""
             height={400}
-            width={600}
+            width={700}
             className="image-fluid d-block w-100"
           />
         </div>
@@ -54,20 +56,19 @@ class Home extends React.Component {
     </div>
     <div className="carousel-item">
       <div className="container custom-container">
-        <div className="custom-div1">
+        <div >
           <h1 className  = "custom-text-color display-5">
-            Unlock your <br />
-            freelance potential <br />
-            with GigSthan
+          Platform Updates<br />
+          & Enhancements
           </h1>
-          <button className="btn custom-orange-btn mt-4">Get Started</button>
+          <button className="btn custom-orange-btn mt-4">Get Updates</button>
         </div>
         <div className="custom-div2">
           <img
             src="set.gif"
             alt=""
             height={400}
-            width={600}
+            width={700}
             className="image-fluid d-block w-100"
           />
         </div>
@@ -75,20 +76,19 @@ class Home extends React.Component {
     </div>
     <div className="carousel-item">
       <div className="container custom-container">
-        <div className="custom-div1">
+        <div >
           <h1 className  = "custom-text-color display-5">
-            Unlock your <br />
-            freelance potential <br />
-            with GigSthan
+          Find Your Perfect Match<br />
+          with AI 
           </h1>
-          <button className="btn custom-orange-btn mt-4">Get Started</button>
+          <button className="btn custom-orange-btn mt-4">Start Matchmaking</button>
         </div>
         <div className="custom-div2">
           <img
             src="robo.gif"
             alt=""
             height={400}
-            width={600}
+            width={700}
             className="image-fluid d-block w-100"
           />
         </div>
@@ -150,7 +150,7 @@ class Home extends React.Component {
   </h1>
   <div
     id="carouselExampleCaptions"
-    className="carousel slide custom-margin-a "
+    className="carousel slide custom-margin-a technical "
     data-bs-ride="carousel"
   >
     <div className="carousel-inner">
@@ -254,7 +254,7 @@ class Home extends React.Component {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" className="btn ">
+                <a href="#" className="btn custom-orange-btn">
                   Know More
                 </a>
               </div>
@@ -382,9 +382,9 @@ class Home extends React.Component {
           <li> Enjoy secure payments through our escrow system.</li>
         </ul>
         <p />
-        <button className="btn custom-orange-btn btn-lg" type="button">
-          Create Freelancer Account
-        </button>
+       
+         <Link to="/freelancer_account"> <button className="btn custom-orange-btn btn-lg" type="button">Create Freelancer Account  </button></Link>
+      
       </div>
       <div className="container-fluid py-5 col-6">
         <h1 className="display-5 fw-bold custom-text-color">Clients</h1>
@@ -395,9 +395,9 @@ class Home extends React.Component {
           <li>Manage your projects easily with our intuitive dashboard.</li>
         </ul>
         <p />
-        <button className="btn custom-orange-btn btn-lg" type="button">
-          Create Client Account
-        </button>
+       
+        <Link to="/client_account" > <button className="btn custom-orange-btn btn-lg" type="button">Create Client Account</button></Link>
+        
       </div>
     </div>
   </div>
@@ -590,6 +590,8 @@ class Home extends React.Component {
           >
             Close
           </button>
+          <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+          <script src="https://files.bpcontent.cloud/2024/11/08/12/20241108123922-7G77HD46.js"></script>
         </div>
       </div>
     </div>

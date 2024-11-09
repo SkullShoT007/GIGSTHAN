@@ -133,7 +133,7 @@
   margin-top: 90px;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 10px;
 
 
 }
@@ -255,6 +255,7 @@
 .custom-orange-btn{
   color: #ffffff;
   background-color: #F5745A;
+  
 }
 .custom-orange-btn:hover{
   color: #e3f2fd;
@@ -397,7 +398,22 @@ body {
 .custom-bg-image{
 
   background-image: url("Pattern.jpg");
-  background-size: 100% 150%;
   background-repeat: no-repeat;
+  background-size: cover;
   
+}
+/* login css */
+/* job board css */
+.custom-freelance-head{
+  color: white;
+
+}
+/* ends here */
+
+.custom-div1{
+  margin-left: 80px;
+}
+
+.technical .carousel-control-prev, .technical .carousel-control-next {
+  width: 5%;
 }
